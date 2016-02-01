@@ -1,0 +1,25 @@
+html
+{
+	background: url(../images/background.png);
+	font-family: 'Arimo', sans-serif;
+}
+
+nav img
+{
+	width: 15%;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+a:visited
+{
+	color: black;
+}
+
+a:link 
+{
+	color:black;
+}
