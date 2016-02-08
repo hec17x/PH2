@@ -98,15 +98,156 @@ nav a:hover
 
 /*||||5||||*/
 
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px)and (-webkit-min-device-pixel-ratio: 2) {
-	
-
-}
-
 /* Portrait */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px)and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
 	
+	/*Logo*/
+	#logo
+	{
+		width: 60%;
+		margin-left: 20.5%;
+    	margin-right: auto;
+    	
+	}
+	
+	/*Menú de hamburguesa*/
+
+	ul.menu-nav
+	{
+		height: 0;
+		overflow: hidden;
+	}
+
+	#hamburguesa
+	{
+
+		display: inline-block;
+		width: 102%;
+		background: #212121;
+		margin-bottom: 5%;
+		margin-top: -0.8%;
+		margin-left: -0.9%;
+		transition: height 0.4s;
+	}
+
+	#hamburguesa span
+	{
+		color: #E0E0E0;
+   	  	font-size: 4em;
+    	position: absolute;
+    	left: 41%;
+    	top: 2%;
+	}
+
+	.control-menu-ap
+	{
+		float: right;
+		padding-top: 3%;
+		padding-right: 5%;
+
+	}
+
+	.menu-nav
+	{
+		font-size: 4em;
+		list-style: none;
+	}	
+
+	.menu-nav i
+	{
+		margin-left: 2.5%;
+		margin-right: 2.5%;
+	}
+	
+	.menu-nav li
+	{
+		padding-top: 12.5%;
+
+	}
+
+	.menu-nav a
+	{
+		text-decoration: none;
+		color: #E0E0E0;	
+	}
+	
+	.menu-nav a:visited
+	{
+		text-decoration: none;
+		color: #E0E0E0;		
+	}
+
+	.menu-nav a:link
+	{
+		text-decoration: none;
+		color: #E0E0E0;		
+	}
+
+	#hamburguesa:target .menu-nav 
+	{
+		height: 81.5vh;
+		transition: height 0.4s ease-in-out;
+
+	}
+	
+	.abrir
+	{
+		font-size: 4em;
+	}
+
+	.cerrar
+	{
+		font-size: 4em;
+		display: none;
+	}
+	
+	.control-menu-ap a
+	{
+		text-decoration: none;
+		color: #9E9E9E;
+	}
+
+	.control-menu-ap a:visited
+	{
+		color: #9E9E9E;
+	}
+
+	.control-menu-ap a:link 
+	{
+		color:#9E9E9E;
+	}
+
+	#hamburguesa:target .abrir
+	{
+		display: none;
+	}
+
+	#hamburguesa:target .cerrar
+	{
+		display: inline-block;
+	}	
+
+	
+
+	/*Pie*/
+	footer
+	{
+		font-size: 0.6em;
+		text-align: center;
+		background: rgba(0,0,0,0.05);
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+	}
+
+	html
+	{
+		background: url(../images/background.png);
+		background-size: 2%;
+		font-family: 'Arimo', sans-serif;
+	}
+
 
 }
 
@@ -117,13 +258,6 @@ nav a:hover
 }
 
 /*||||6||||*/
-
-
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) { 
-	
-
-}
 
 /* Portrait */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) { 
