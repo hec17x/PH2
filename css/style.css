@@ -1,4 +1,6 @@
-a
+/*<<<PC>>>*/
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) { 
+	a
 {
 	text-decoration: none;
 }
@@ -30,7 +32,7 @@ html
 	font-family: 'Arimo', sans-serif;
 }
 
-img
+#logo
 {
 	width: 20%;
 	display: block;
@@ -44,13 +46,13 @@ nav
 	width: 100%;
 	text-align: center;
 	color: white;
-
 }
 
-nav a
+nav li a
 {
 	font-size: 1em;
 	padding: 3%  3% 0% 0%;
+	display: inline-block;
 
 	transition-property: all;
     transition-duration: 300ms;
@@ -63,6 +65,530 @@ nav a:hover
  {
 	font-size: 1.1em;
  }
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2)and (min-resolution: 192dpi) { 
+}
+
+
+/*<<<RESPONSIVE>>>*/
+
+/*---MOVILES---*/
+
+/*IPHONE*/
+
+/*||||4||||*/
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+	
+
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+	
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+	
+
+}
+
+/*||||5||||*/
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px)and (-webkit-min-device-pixel-ratio: 2) {
+	
+
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px)and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+	
+
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px)and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+	
+
+}
+
+/*||||6||||*/
+
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) { 
+	
+
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) { 
+	
+	/*Logo*/
+	#logo
+	{
+		width: 60%;
+		margin-left: 20%;
+    	margin-right: auto;
+    	
+	}
+	
+	/*Menú de hamburguesa*/
+
+	ul.menu-nav
+	{
+		height: 0;
+		overflow: hidden;
+	}
+
+	#hamburguesa
+	{
+
+		display: inline-block;
+		width: 102%;
+		background: #212121;
+		margin-bottom: 5%;
+		margin-top: -0.8%;
+		margin-left: -0.9%;
+		transition: height 0.4s;
+	}
+
+	#hamburguesa span
+	{
+		color: #E0E0E0;
+   	  	font-size: 4em;
+    	position: absolute;
+    	left: 40.5%;
+    	top: 2%;
+	}
+
+	.control-menu-ap
+	{
+		float: right;
+		padding-top: 3%;
+		padding-right: 4%;
+
+	}
+
+	.menu-nav
+	{
+		font-size: 4em;
+		list-style: none;
+	}	
+
+	.menu-nav i
+	{
+		margin-left: 2.5%;
+		margin-right: 2.5%;
+	}
+	
+	.menu-nav li
+	{
+		padding-top: 12.5%;
+
+	}
+
+	.menu-nav a
+	{
+		text-decoration: none;
+		color: #E0E0E0;	
+	}
+	
+	.menu-nav a:visited
+	{
+		text-decoration: none;
+		color: #E0E0E0;		
+	}
+
+	.menu-nav a:link
+	{
+		text-decoration: none;
+		color: #E0E0E0;		
+	}
+
+	#hamburguesa:target .menu-nav 
+	{
+		height: 81.5vh;
+		transition: height 0.4s ease-in-out;
+
+	}
+	
+	.abrir
+	{
+		font-size: 4em;
+	}
+
+	.cerrar
+	{
+		font-size: 4em;
+		display: none;
+	}
+	
+	.control-menu-ap a
+	{
+		text-decoration: none;
+		color: #9E9E9E;
+	}
+
+	.control-menu-ap a:visited
+	{
+		color: #9E9E9E;
+	}
+
+	.control-menu-ap a:link 
+	{
+		color:#9E9E9E;
+	}
+
+	#hamburguesa:target .abrir
+	{
+		display: none;
+	}
+
+	#hamburguesa:target .cerrar
+	{
+		display: inline-block;
+	}	
+
+	
+
+	/*Pie*/
+	footer
+	{
+		font-size: 0.6em;
+		text-align: center;
+		background: rgba(0,0,0,0.05);
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+	}
+
+	html
+	{
+		background: url(../images/background.png);
+		background-size: 2%;
+		font-family: 'Arimo', sans-serif;
+	}
+
+
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { 
+	
+	
+	/*Logo*/
+	#logo
+	{
+		width: 40%;
+		margin-left: 30%;
+    	margin-right: auto;
+    	
+	}
+	
+	/*Menú de hamburguesa*/
+
+	ul.menu-nav
+	{
+		height: 0;
+		overflow: hidden;
+	}
+
+	#hamburguesa
+	{
+
+		display: inline-block;
+		width: 102%;
+		background: #212121;
+		margin-bottom: 5%;
+		margin-top: -0.8%;
+		margin-left: -0.9%;
+		transition: height 0.4s;
+	}
+
+	#hamburguesa span
+	{
+		color: #E0E0E0;
+   	  	font-size: 2em;
+    	position: absolute;
+    	left: 44.7%;
+    	top: 2.5%;
+	}
+
+	.control-menu-ap
+	{
+		float: right;
+		padding-top: 1.5%;
+		padding-right: 2%;
+
+	}
+
+	.menu-nav
+	{
+		font-size: 2em;
+		list-style: none;
+	}	
+
+	.menu-nav i
+	{
+		margin-left: 2.5%;
+		margin-right: 2.5%;
+	}
+	
+	.menu-nav li
+	{
+		padding-top: 3%;
+		font-size: 0.9em;
+
+	}
+
+	.menu-nav a
+	{
+		text-decoration: none;
+		color: #E0E0E0;	
+	}
+	
+	.menu-nav a:visited
+	{
+		text-decoration: none;
+		color: #E0E0E0;		
+	}
+
+	.menu-nav a:link
+	{
+		text-decoration: none;
+		color: #E0E0E0;		
+	}
+
+	#hamburguesa:target .menu-nav 
+	{
+		height: 81.5vh;
+		transition: height 0.4s ease-in-out;
+
+	}
+	
+	.abrir
+	{
+		font-size: 2em;
+	}
+
+	.cerrar
+	{
+		font-size: 2em;
+		display: none;
+	}
+	
+	.control-menu-ap a
+	{
+		text-decoration: none;
+		color: #9E9E9E;
+	}
+
+	.control-menu-ap a:visited
+	{
+		color: #9E9E9E;
+	}
+
+	.control-menu-ap a:link 
+	{
+		color:#9E9E9E;
+	}
+
+	#hamburguesa:target .abrir
+	{
+		display: none;
+	}
+
+	#hamburguesa:target .cerrar
+	{
+		display: inline-block;
+	}	
+
+	
+
+	/*Pie*/
+	footer
+	{
+		font-size: 0.6em;
+		text-align: center;
+		background: rgba(0,0,0,0.05);
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+	}
+
+	html
+	{
+		background: url(../images/background.png);
+		background-size: 2%;
+		font-family: 'Arimo', sans-serif;
+	}
+
+}
+
+/*||||6+||||*/
+
+/* Portrait and Landscape */
+@media only screen  and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) { 
+	
+	#logo
+	{
+		background: black;
+	}
+
+	html
+	{
+		background: grey;
+	}
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) { 
+	html
+	{
+		background: red;
+	}
+
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) { 
+	html
+	{
+		background: blue;
+	}
+
+}
+
+
+/*GALAXY*/
+
+/*||||S3||||*/
+
+/* Portrait and Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
+	html
+	{
+		background: black;
+	}
+
+}
+
+/* Portrait */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {
+	html
+	{
+		background: black;
+	}
+
+}
+
+/* Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {
+	html
+	{
+		background: black;
+	}
+
+}
+
+/*||||S4||||*/
+
+/* Portrait and Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+	html
+	{
+		background: black;
+	}
+
+}
+
+/* Portrait */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+	html
+	{
+		background: black;
+	}
+
+}
+
+/* Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+	html
+	{
+		background: black;
+	}
+
+}
+
+/*||||S5||||*/
+
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+	html
+	{
+		background: black;
+	}
+
+}
+
+/* Portrait */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+	html
+	{
+		background: black;
+	}
+
+}
+
+/* Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+	html
+	{
+		background: black;
+	}
+
+}
+
+/*HTC*/
+
+/*||||ONE||||*/
+
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+	html
+	{
+		background: black;
+	}
+
+}
+
+/* Portrait */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+	html
+	{
+		background: black;
+	}
+
+}
+
+/* Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+	html
+	{
+		background: black;
+	}
+
+}
+
+
+
 
 
 
