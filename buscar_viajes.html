@@ -4,6 +4,7 @@
 <title>BUSCAR VIAJES-OPEN TRAVELER</title>
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link href='https://fonts.googleapis.com/css?family=Arimo:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
 <link type="text/css" rel="stylesheet" href="css/apple.css" />
 <link type="text/css" rel="stylesheet" href="css/house.css" />
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
@@ -33,32 +34,22 @@
 
 </header>
 
+<h1>Buscar Viaje</h1>
 
-<div>
+<section>
 	<form action='#'>
-		<br>
-		<br>
+
 	    <!--Usuario:-->
-		<br>
-		<input type="text" name="titulo" placeholder = "Titulo"  title="Introduce un Titulo"> 
+		<input type="text" class="titulo" name="titulo" placeholder = "Titulo"  title="Introduce un Titulo"> 
+		<input type="text" class="autor" name="autor" placeholder="Autor">
 		<!--pattern="^([a-z]+[0-9]{0,2}){5,12}$"-->
-		<br>
 		<!--Contraseña:-->
-		<br>
-		<input type="textarea" name="descripcion" placeholder = "Descripción" title="Introduce una Descripción">
-		<br>
-		<br>
-		<input type="text" name="autor" placeholder="Autor">
-		<br>
-		<br>
+		<!--<input class="descripcion" type="textarea" name="descripcion" placeholder = "Descripción" title="Introduce una Descripción">-->
+		<textarea class="descripcion" placeholder="Descripción"></textarea>
+		
 		<label>Fecha entre:</label>
-		<br><br>
 		<input type="date" name="fechaini" value "">
-		<br>
-		<br>
 		<input type="date" name="fechafin" value"">  
-		<br>
-		<br>
 		<label>Valoración mínima:</label>
 		
 		<div class="ec-stars-wrapper">
@@ -68,10 +59,7 @@
 			<a href="#" data-value="4" title="Votar con 4 estrellas">&#9733;</a>
 			<a href="#" data-value="5" title="Votar con 5 estrellas">&#9733;</a>
 		</div>
-		<br>
-		<br>
 		<label>Valoración mánima:</label>
-		<br>
 		<div class="ec-stars-wrapper">
 			<a href="#" data-value="1" title="Votar con 1 estrellas">&#9733;</a>
 			<a href="#" data-value="2" title="Votar con 2 estrellas">&#9733;</a>
@@ -79,19 +67,9 @@
 			<a href="#" data-value="4" title="Votar con 4 estrellas">&#9733;</a>
 			<a href="#" data-value="5" title="Votar con 5 estrellas">&#9733;</a>
 		</div>
-		<br>
-		<br>
- 		<!--<input type="submit" value="Acceder">
-		<br>
-		<br>-->
 		<button class="btnExample" type="submit" >Buscar Viaje</button>
-		<br>
-		<br>
-		<br>
-		<br>
-
 	</form>
-</div>
+</section>
 
 <footer>
 
