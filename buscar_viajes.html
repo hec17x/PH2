@@ -32,7 +32,7 @@
 	</ul>
 </nav>
 
-<nav>
+<nav id="ed-escritorio">
 <img id="logo" src="images/logo.png" >
 
 	<ul class="menu-principal">
@@ -46,11 +46,13 @@
 	</ul>
 </nav>
 
+
 </header>
 
-<h1>Buscar Viaje</h1>
 
-<section>
+
+<section id="busqueda">
+<h1>Buscar Viaje</h1>
 	<form action='#'>
 
 	    <!--Usuario:-->
@@ -61,11 +63,15 @@
 		<!--<input class="descripcion" type="textarea" name="descripcion" placeholder = "Descripción" title="Introduce una Descripción">-->
 		<textarea class="descripcion" placeholder="Descripción"></textarea>
 		
+		<div class="fechas">
 		<label>Fecha entre:</label>
 		<input type="date" name="fechaini" value "">
-		<input type="date" name="fechafin" value"">  
+		<span> - </span>
+		<input type="date" name="fechafin" value""> 
+		</div> 
 		<label>Valoración mínima:</label>
 		
+
 		<div class="ec-stars-wrapper">
 			<a href="#" data-value="1" title="Votar con 1 estrellas">&#9733;</a>
 			<a href="#" data-value="2" title="Votar con 2 estrellas">&#9733;</a>
