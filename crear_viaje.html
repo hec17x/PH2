@@ -51,22 +51,21 @@
 </header>
 
 
-
 <section id="busqueda">
 <h1>Crear Viaje</h1>
-	 <!--Usuario:-->
-		<input type="text" class="titulo" name="titulo" placeholder = "Titulo"  title="Introduce un Titulo"> 
-		<input type="text" class="autor" name="autor" placeholder="Autor">
+
+	<form action='#'>
+		
+	    <!--Usuario:-->
+		<input type="text" class="titulo" name="titulo" placeholder = "Titulo" autofocus required title="Introduce un Titulo"> 
 		<!--pattern="^([a-z]+[0-9]{0,2}){5,12}$"-->
 		<!--Contraseña:-->
-		<!--<input class="descripcion" type="textarea" name="descripcion" placeholder = "Descripción" title="Introduce una Descripción">-->
-		<textarea class="descripcion" placeholder="Descripción"></textarea>
-		
-		<div class="fechas">
+		<textarea class="descripcion" placeholder="Descripción" required title="Introduce una Descripción"></textarea>
+	<div class="fechas">
 		<label>Fecha entre:</label>
-		<input type="date" name="fechaini" value "">
+		<input type="date" name="fechaini" required>
 		<span> - </span>
-		<input type="date" name="fechafin" value""> 
+		<input type="date" name="fechafin" required> 
 		</div> 
 		
 		<label>Valoración:</label>
@@ -78,19 +77,21 @@
 			<a href="#" data-value="4" title="Votar con 4 estrellas">&#9733;</a>
 			<a href="#" data-value="5" title="Votar con 5 estrellas">&#9733;</a>
 		</div>
-	
+		<br>
+		<br>
 		<label>Añadir Fotos:</label>
-
-		<form id="subirfoto" action="#">
-		<input type="file" name="img" multiple>
-		  <button class="btn_viaje" type="submit" >Crear Viaje</button>
-		</form>		
-	
+			<!--<form id="subirfoto" action="#">
+			<input type="file" name="img" multiple>
+			  <input type="submit" value="Añadir Foto">
+			</form>-->		
+ 		<!--<input type="submit" value="Acceder">
+		<br>-->
 		
+		<br>
+		<button class="btnExample" type="submit" >Crear Viaje</button>
 
 	</form>
-</section
-
+</section>
 
 <footer>
 

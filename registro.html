@@ -49,31 +49,25 @@
 </header>
 
 
-
-
-
 <section id="busqueda">
-<h1>Registro</h1>
+<h1>Registra tu cuenta:</h1>
 	<form action='#'>
 
-		<input class="user-reg" type="text" name="nombre_completo" placeholder = "Nombre Completo" required title="Introduce tu Nombre completo">
-		
-		<input  class="user-reg" type="email" name="email" placeholder = "Email" required title="Introduce un Email">
-
 	    <!--Usuario:-->
-	
-		<input class="user-reg" =""type="text" name="user" placeholder = "Usuario"  title="Introduce un Usuario" autofocus required> 
+
+		<input type="text" class="autor" name="user" placeholder = "Usuario" pattern="^[a-zA-Z]{1,1}[a-zA-Z0-9]{1,19}$" autofocus required title="Introduce un Usuario"> 
 		<!--pattern="^([a-z]+[0-9]{0,2}){5,12}$"-->
-
 		<!--Contraseña:-->
-		<input class="pass-reg1" type="password" name="pass" placeholder = "Contraseña" required title="Introduce una Contraseña">
+		<input type="password" class="autor" name="pass" placeholder = "Contraseña"  pattern="^[a-zA-Z0-9_-]{1,20}$" required title="Introduce una Contraseña">
+		<input type="password" name="pass2" class="autor" placeholder = "Repetir Contraseña" pattern="^[a-zA-Z0-9_-]{1,20}$" required title="Repite tu Contraseña">
 
-		<input class="pass-reg2" type="password" name="pass2" placeholder = "Repetir Contraseña" required title="Repite tu Contraseña">
+		<input type="text" name="nombre_completo" class="autor" placeholder = "Nombre Completo" required title="Introduce tu Nombre completo">
 
-		<input class="user-reg" type="file" name="uploadedfile" />
+		<input type="email" name="email" class="autor" placeholder = "Email" required title="Introduce un Email">
 
-		<button class="btn_viaje" type="submit" >Registrar</button>
-
+		<input type="file" name="uploadedfile" id="uploadedfile" />
+		<br><br>
+		<button class="btnExample" type="submit" >Crear Cuenta</button>
 	</form>
 </section>
 
