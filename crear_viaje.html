@@ -21,7 +21,7 @@
 		<a href="#hamburguesa" class="abrir"><i class="icons8-menu"></i></a>
 		<a href="#" class="cerrar"><i class="icons8-delete"></i></a>
 	</div>
-	<span>VIAJE</span>
+	<img id="logo" src="images/logo1.png">
 <ul class="menu-nav">
 		<li><a href="index.html"><i class="icon-home-circled"></i>INICIO</a> </li>
 		<li><a href="buscar_viajes.html"><i class="icon-search"></i>BUSCAR VIAJES</a></li> 
@@ -32,6 +32,7 @@
 		<li><a href="registro.html"><i class="icon-logout"></i>REGISTRO</a></li>
 	</ul>
 </nav>
+
 
 <nav id="ed-escritorio">
 <img id="logo" src="images/logo.png" >
@@ -51,31 +52,22 @@
 
 
 
-<div>
-	<form action='#'>
-		<br>
-		<br>
-	    <!--Usuario:-->
-		<br>
-		<input type="text" name="titulo" placeholder = "Titulo"  title="Introduce un Titulo"> 
+<section id="busqueda">
+<h1>Crear Viaje</h1>
+	 <!--Usuario:-->
+		<input type="text" class="titulo" name="titulo" placeholder = "Titulo"  title="Introduce un Titulo"> 
+		<input type="text" class="autor" name="autor" placeholder="Autor">
 		<!--pattern="^([a-z]+[0-9]{0,2}){5,12}$"-->
-		<br>
 		<!--Contraseña:-->
-		<br>
-		<input type="textarea" name="descripcion" placeholder = "Descripción" title="Introduce una Descripción">
-		<br>
-		<br>
-		<input type="text" name="autor" placeholder="Autor">
-		<br>
-		<br>
-		<label>Fecha del Viaje:</label>
-		<br><br>
-		<input type="date" name="fechaini" value ="">
-		<br>
-		<br>
-		<input type="date" name="fechafin" value="">  
-		<br>
-		<br>
+		<!--<input class="descripcion" type="textarea" name="descripcion" placeholder = "Descripción" title="Introduce una Descripción">-->
+		<textarea class="descripcion" placeholder="Descripción"></textarea>
+		
+		<div class="fechas">
+		<label>Fecha entre:</label>
+		<input type="date" name="fechaini" value "">
+		<span> - </span>
+		<input type="date" name="fechafin" value""> 
+		</div> 
 		
 		<label>Valoración:</label>
 		
@@ -86,26 +78,18 @@
 			<a href="#" data-value="4" title="Votar con 4 estrellas">&#9733;</a>
 			<a href="#" data-value="5" title="Votar con 5 estrellas">&#9733;</a>
 		</div>
-		<br>
-		<br>
+	
 		<label>Añadir Fotos:</label>
-		<br><br>
+
 		<form id="subirfoto" action="#">
 		<input type="file" name="img" multiple>
-		  <input type="submit" value="Añadir Foto">
+		  <button class="btn_viaje" type="submit" >Crear Viaje</button>
 		</form>		
-		<br>
- 		<!--<input type="submit" value="Acceder">
-		<br>
-		<br>-->
-		<button class="btnExample" type="submit" >Crear Viaje</button>
-		<br>
-		<br>
-		<br>
-		<br>
+	
+		
 
 	</form>
-</div>
+</section
 
 
 <footer>
