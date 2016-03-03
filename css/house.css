@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'house';
-  src: url('../font/house.eot?55495238');
-  src: url('../font/house.eot?55495238#iefix') format('embedded-opentype'),
-       url('../font/house.woff?55495238') format('woff'),
-       url('../font/house.ttf?55495238') format('truetype'),
-       url('../font/house.svg?55495238#house') format('svg');
+  src: url('../font/house.eot?23550273');
+  src: url('../font/house.eot?23550273#iefix') format('embedded-opentype'),
+       url('../font/house.woff?23550273') format('woff'),
+       url('../font/house.ttf?23550273') format('truetype'),
+       url('../font/house.svg?23550273#house') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -14,7 +14,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'house';
-    src: url('../font/house.svg?55495238#house') format('svg');
+    src: url('../font/house.svg?23550273#house') format('svg');
   }
 }
 */
@@ -65,3 +65,5 @@
 .icon-menu-outline:before { content: '\e808'; } /* '' */
 .icon-eq:before { content: '\e809'; } /* '' */
 .icon-cancel:before { content: '\e80a'; } /* '' */
+.icon-star-empty:before { content: '\e80b'; } /* '' */
+.icon-star:before { content: '\e80c'; } /* '' */

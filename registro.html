@@ -55,19 +55,19 @@
 
 	    <!--Usuario:-->
 
-		<input type="text" class="autor" name="user" placeholder = "Usuario" pattern="^[a-zA-Z]{1,1}[a-zA-Z0-9]{1,19}$" autofocus required title="Introduce un Usuario"> 
+		<input type="text" class="user-reg" name="user" placeholder = "Usuario" pattern="^[a-zA-Z]{1,1}[a-zA-Z0-9]{1,19}$" autofocus required title="Introduce un Usuario"> 
 		<!--pattern="^([a-z]+[0-9]{0,2}){5,12}$"-->
 		<!--Contraseña:-->
-		<input type="password" class="autor" name="pass" placeholder = "Contraseña"  pattern="^[a-zA-Z0-9_-]{1,20}$" required title="Introduce una Contraseña">
-		<input type="password" name="pass2" class="autor" placeholder = "Repetir Contraseña" pattern="^[a-zA-Z0-9_-]{1,20}$" required title="Repite tu Contraseña">
+		<input type="password" class="pass-reg1" name="pass" placeholder = "Contraseña"  pattern="^[a-zA-Z0-9_-]{1,20}$" required title="Introduce una Contraseña">
+		<input type="password" name="pass2" class="pass-reg2" placeholder = "Repetir Contraseña" pattern="^[a-zA-Z0-9_-]{1,20}$" required title="Repite tu Contraseña">
 
-		<input type="text" name="nombre_completo" class="autor" placeholder = "Nombre Completo" required title="Introduce tu Nombre completo">
+		<input type="text" name="nombre_completo" class="pass-reg1" placeholder = "Nombre Completo" required title="Introduce tu Nombre completo">
 
-		<input type="email" name="email" class="autor" placeholder = "Email" required title="Introduce un Email">
+		<input type="email" name="email" class="pass-reg2" placeholder = "Email" required title="Introduce un Email">
 
-		<input type="file" name="uploadedfile" id="uploadedfile" />
-		<br><br>
-		<button class="btnExample" type="submit" >Crear Cuenta</button>
+		<input type="file" class="sub_foto" name="uploadedfile" id="uploadedfile" />
+		
+		<button class="btn_viaje" type="submit" >Crear Cuenta</button>
 	</form>
 </section>
 
