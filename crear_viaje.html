@@ -62,19 +62,28 @@
 		<!--Contraseña:-->
 		<textarea class="descripcion" placeholder="Descripción" required title="Introduce una Descripción"></textarea>
 	<div class="fechas">
-		<label>Fecha entre:</label>
+		<p id="val">Fecha entre:</p>
 		<input type="date" name="fechaini" required>
 		<span> - </span>
 		<input type="date" name="fechafin" required> 
 		</div> 
 		
-		<label>Valoración:</label>
+		<p id="val">Valoración:</p>
 		
-			<div class="rating">
-			<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
-			</div>
+		<p class="clasificacion">
+   		 <input id="radio1" type="radio" name="estrellas" value="5"><!--
+    --><label for="radio1">★</label><!--
+    --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+    --><label for="radio2">★</label><!--
+    --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+    --><label for="radio3">★</label><!--
+    --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+    --><label for="radio4">★</label><!--
+    --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+    --><label for="radio5">★</label>
+  		</p>
 
-		<label>Añadir Fotos:</label>
+		<p id="val">Añadir Fotos:</p>
 
 			<input class="sub_foto" type="file" name="img" multiple>
 

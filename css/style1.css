@@ -32,7 +32,7 @@ a:link
     overflow:hidden;
     float:left;
     margin-right:20px;
-    background-color:rgba(26,76,110,0.5)
+    background-color:rgba(26,76,110,0.5);
 }
 
 .demo-1 p,.demo-1 h2 {
@@ -40,7 +40,7 @@ a:link
     padding:10px;
     left:-20px;
     top:20px;
-    position:relative
+    position:relative;
 }
 
 .demo-1 p {
@@ -71,14 +71,14 @@ a:link
     -webkit-transition:top .4s ease-in-out,right .4s ease-in-out;
     -moz-transition:top .4s ease-in-out,right .4s ease-in-out;
     -o-transition:top .4s ease-in-out,right .4s ease-in-out;
-    transition:top .4s ease-in-out,right .4s ease-in-out
+    transition:top .4s ease-in-out,right .4s ease-in-out;
 }
 
 .effect img.top:hover {
     top:-250px;
     right:-350px;
     padding-bottom:200px;
-    padding-left:300px
+    padding-left:300px;
 }
 
 
