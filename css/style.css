@@ -2309,5 +2309,68 @@
 	{
 		width: 100%;
 	}
+/**
+	input:hover
+	{
+			border-bottom: solid 2px #0091EA;
+
+	}**/
+	
+	.titulo-bus:hover
+	{
+		border-bottom: solid 2px #0091EA;
+		border-right: solid 2px #0091EA;
+	}
+	
+	.titulo-bus:focus
+	{
+		border-bottom: solid 3px #0091EA;
+		border-right: solid 3px #0091EA;
+	}
+
+	.titulo:hover
+	{
+		border-bottom: solid 2px #0091EA;
+	
+	}
+	
+	.titulo:focus
+	{
+		border-bottom: solid 3px #0091EA;
+
+	}
+	
+	.autor:hover
+	{
+		border-bottom: solid 2px #0091EA;
+		border-left: solid 2px #0091EA;
+	}
+	
+	.autor:focus
+	{
+		border-bottom: solid 3px #0091EA;
+		border-left: solid 3px #0091EA;
+	}
+	
+	.descripcion:hover
+	{
+		border-bottom: solid 2px #0091EA;
+	}
+	
+	.descripcion:focus
+	{
+		border-bottom: solid 3px #0091EA;
+	}
+
+	.fechas input[type="date"]:hover
+	{
+		border-bottom: solid 2px #0091EA;
+
+	}
+	
+	.fechas input[type="date"]:focus
+	{
+		border-bottom: solid 3px #0091EA;
+	}
 
 }
