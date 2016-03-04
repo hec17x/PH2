@@ -2377,6 +2377,10 @@
 
 	article{
 		background-color: #E0F7FA;
+		max-width: 44%;
+		display: inline-block;
+		margin-right: 5%;
+		margin-top: 2%;
 	}
 
 	
