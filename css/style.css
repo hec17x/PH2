@@ -1828,6 +1828,50 @@
 		background-size: 2%;
 		font-family: 'Arimo', sans-serif;
 	}	
+
+	#busqueda > img {
+    width: 26.5em;
+    height: 26.5em;
+    object-fit: cover;
+    margin-right: auto;
+    margin-left: auto;
+	}
+
+	#estrella
+	{
+		color: orange;
+	}
+
+	#estrella_desactivada
+	{
+		color: grey;
+	}
+
+		
+	article{
+		border-top: 1px solid #BDBDBD;
+		border-bottom: 1px solid #BDBDBD;
+		background: #EEEEEE;
+		width: 95%;
+		display: inline-block;
+		margin-top: 2%;
+		padding: 2.5%;
+		font-size: 1.5em;
+	}
+
+
+	#comentarios form
+	{
+		border: 1px solid #BDBDBD;
+		background: #EEEEEE;
+		margin-top: 5%;
+		margin-bottom: 5%;
+		width: 50%;
+		margin-right: auto;
+		margin-left: auto;
+		padding: 2.5%;
+
+	}
 }
 
 @media only screen and (min-width : 1224px) {
