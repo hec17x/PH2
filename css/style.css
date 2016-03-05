@@ -588,6 +588,50 @@
 		font-size: 1em;
 		font-weight: lighter;
 	}
+	
+	#busqueda > img {
+    width: 26.5em;
+    height: 26.5em;
+    object-fit: cover;
+    margin-right: auto;
+    margin-left: auto;
+	}
+
+	#estrella
+	{
+		color: orange;
+	}
+
+	#estrella_desactivada
+	{
+		color: grey;
+	}
+
+		
+	article{
+		border-top: 1px solid #BDBDBD;
+		border-bottom: 1px solid #BDBDBD;
+		background: #EEEEEE;
+		width: 95%;
+		display: inline-block;
+		margin-top: 2%;
+		padding: 2.5%;
+		font-size: 2em;
+	}
+
+
+	section form
+	{
+		border: 1px solid #BDBDBD;
+		background: #EEEEEE;
+		margin-top: 5%;
+		margin-bottom: 5%;
+		width: 90%;
+		margin-right: auto;
+		margin-left: auto;
+		padding: 2.5%;
+
+	}
 
 	html
 	{
@@ -1160,6 +1204,50 @@
 		background: #01579B;
 		font-size: 1em;
 		font-weight: lighter;
+	}
+	
+	#busqueda > img {
+    width: 26.5em;
+    height: 26.5em;
+    object-fit: cover;
+    margin-right: auto;
+    margin-left: auto;
+	}
+
+	#estrella
+	{
+		color: orange;
+	}
+
+	#estrella_desactivada
+	{
+		color: grey;
+	}
+
+		
+	article{
+		border-top: 1px solid #BDBDBD;
+		border-bottom: 1px solid #BDBDBD;
+		background: #EEEEEE;
+		width: 95%;
+		display: inline-block;
+		margin-top: 2%;
+		padding: 2.5%;
+		font-size: 1.5em;
+	}
+
+
+	section form
+	{
+		border: 1px solid #BDBDBD;
+		background: #EEEEEE;
+		margin-top: 5%;
+		margin-bottom: 5%;
+		width: 50%;
+		margin-right: auto;
+		margin-left: auto;
+		padding: 2.5%;
+
 	}
 
 	html
@@ -1768,9 +1856,6 @@
 	}
 
 
-/*////////////Codigo Roberts//////////////////////////*/
-
-
 
 	.demo-1 {
     	position:relative;
@@ -2108,38 +2193,6 @@
   		transition: width .2s ease-out, padding-top .2s ease-out;
 	}
 
-	/*7777777777777777777777777777777777777*/
-
-	.ec-stars-wrapper {
-	/* Espacio entre los inline-block (los hijos, los `a`) 
-	   http://ksesocss.blogspot.com/2012/03/display-inline-block-y-sus-empeno-en.html */
-		font-size: 0;
-	/* Podríamos quitarlo, 
-		pero de esta manera (siempre que no le demos padding), 
-		sólo aplicará la regla .ec-stars-wrapper:hover a cuando
-		también se esté haciendo hover a alguna estrella */
-		display: inline-block;
-	}
-
-	.ec-stars-wrapper a {
-		text-decoration: none;
-		display: inline-block;
-		/* Volver a dar tamaño al texto */
-		font-size: 32px;
-		font-size: 2rem;
-	
-		color: #888;
-	}
-
-	.ec-stars-wrapper:hover a {
-		color: rgb(39, 130, 228);
-	}
-/*
- * El selector de hijo, es necesario para aumentar la especifidad
- */
-	.ec-stars-wrapper > a:hover ~ a {
-		color: #888;
-	}
 
 	#busqueda > img
 	{
@@ -2150,9 +2203,6 @@
 		margin-left: auto;
 	}
 
-/*//////////////////////////////////////*/
-
-/*Pie*/
 	footer
 	{
 		font-size: 0.8em;
@@ -2309,12 +2359,7 @@
 	{
 		width: 100%;
 	}
-/**
-	input:hover
-	{
-			border-bottom: solid 2px #0091EA;
 
-	}**/
 	
 	.titulo-bus:hover
 	{
@@ -2373,16 +2418,85 @@
 		border-bottom: solid 3px #0091EA;
 	}
 
+	.user-reg:hover
+	{
+		border-bottom: solid 2px #0091EA;
+	}
+	
+	.user-reg:focus
+	{
+		border-bottom: solid 3px #0091EA;
+	}
+
+
+	.pass-reg1:hover
+	{
+		border-bottom: solid 2px #0091EA;
+		border-right: solid 2px #0091EA;
+	}
+	
+	.pass-reg1:focus
+	{
+		border-bottom: solid 3px #0091EA;
+		border-right: solid 3px #0091EA;
+	}
+
+	.pass-reg2:hover
+	{
+		border-bottom: solid 2px #0091EA;
+		border-left: solid 2px #0091EA;
+	}
+	
+	.pass-reg2:focus
+	{
+		border-bottom: solid 3px #0091EA;
+		border-left: solid 3px #0091EA;
+	}
+
+	.sub_foto:hover
+	{
+		border-bottom: solid 2px #0091EA;
+		border-left: solid 2px #0091EA;
+	}
+	
+	.sub_foto:focus
+	{
+		border-bottom: solid 3px #0091EA;
+		border-left: solid 3px #0091EA;
+	}
+	
 	/*Comentarios de aqui abajo*/
 
 	article{
-		background-color: #E0F7FA;
-		max-width: 44%;
+		border-top: 1px solid #BDBDBD;
+		border-bottom: 1px solid #BDBDBD;
+		background: #EEEEEE;
+		width: 95%;
 		display: inline-block;
-		margin-right: 5%;
 		margin-top: 2%;
+		padding: 2.5%;
 	}
 
-	
+
+	section form
+	{
+		border: 1px solid #BDBDBD;
+		background: #EEEEEE;
+		margin-top: 10%;
+		width: 50%;
+		margin-right: auto;
+		margin-left: auto;
+		padding: 2.5%;
+	}
+
+	#estrella
+	{
+		color: orange;
+	}
+
+	#estrella_desactivada
+	{
+		color: grey;
+	}
 
 }
