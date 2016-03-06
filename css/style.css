@@ -2383,13 +2383,6 @@
 		margin-top: 2%;
 	}
 
-	#viajes article > h4{
-	    overflow:hidden;
-	    white-space:nowrap;
-	    text-overflow: ellipsis;
-	}
-
-
 	
 
 }
