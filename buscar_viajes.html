@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>BUSCAR VIAJES-OPEN TRAVELER</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link href='https://fonts.googleapis.com/css?family=Arimo:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+<link type="text/css" rel="stylesheet" href="css/apple.css" />
+<link type="text/css" rel="stylesheet" href="css/house.css" />
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+</head>
+
+<body>
+
+<header>
+
+<nav id="hamburguesa">
+
+<div class="control-menu-ap">
+		<a href="#hamburguesa" class="abrir"><i class="icons8-menu"></i></a>
+		<a href="#" class="cerrar"><i class="icons8-delete"></i></a>
+	</div>
+	<img id="logo" alt="" src="images/logo1.png">
+<ul class="menu-nav">
+		<li><a href="index.html"><i class="icon-home-circled"></i>INICIO</a> </li>
+		<li><a href="buscar_viajes.html"><i class="icon-search"></i>BUSCAR VIAJES</a></li> 
+		<li><a href="crear_viaje.html"><i class="icon-flight"></i>CREAR VIAJE</a></li>
+		<li><a href="about.html"><i class="icon-adult"></i>PERFIL</a></li>
+		<li><a href="registro.html"><i class="icon-logout-2"></i>LOGOUT</a></li>
+		<li><a href="login.html"><i class="icon-login"></i>LOGIN</a></li>
+		<li><a href="registro.html"><i class="icon-logout"></i>REGISTRO</a></li>
+	</ul>
+</nav>
+
+<nav id="ed-escritorio">
+<img id="logo"  alt="" src="images/logo.png" >
+
+	<ul class="menu-principal">
+		<li><a href="index.html"><i class="icon-home-circled"></i>INICIO</a> </li>
+		<li><a href="buscar_viajes.html"><i class="icon-search"></i>BUSCAR VIAJES</a></li> 
+		<li><a href="crear_viaje.html"><i class="icon-flight"></i>CREAR VIAJE</a></li>
+		<li><a href="about.html"><i class="icon-adult"></i>PERFIL</a></li>
+		<li><a href="registro.html"><i class="icon-logout-2"></i>LOGOUT</a></li>
+		<li><a href="login.html"><i class="icon-login"></i>LOGIN</a></li>
+		<li><a href="registro.html"><i class="icon-logout"></i>REGISTRO</a></li>
+	</ul>
+</nav>
+
+
+</header>
+
+
+
+<section id="busqueda">
+<h1>Buscar Viaje</h1>
+	<form action='#'>
+
+	    <!--Usuario:-->
+		<input type="text" class="titulo-bus" name="titulo" placeholder = "Titulo"  title="Introduce un Titulo" autofocus> 
+		<input type="text" class="autor" name="autor" placeholder="Autor">
+		<!--pattern="^([a-z]+[0-9]{0,2}){5,12}$"-->
+		<!--Contraseña:-->
+		<!--<input class="descripcion" type="textarea" name="descripcion" placeholder = "Descripción" title="Introduce una Descripción">-->
+		<textarea class="descripcion" placeholder="Descripción"></textarea>
+		
+		<div class="fechas">
+		<p id="val">Fecha entre:</p>
+		<input type="date" name="fechaini" value "">
+		<span> - </span>
+		<input type="date" name="fechafin" value""> 
+		</div> 
+		<p id="val">Valoración mínima:</p>
+
+		
+		<p class="clasificacion">
+   		 <input id="radio1" type="radio" name="estrellas" value="5"><!--
+    --><label for="radio1">★</label><!--
+    --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+    --><label for="radio2">★</label><!--
+    --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+    --><label for="radio3">★</label><!--
+    --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+    --><label for="radio4">★</label><!--
+    --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+    --><label for="radio5">★</label>
+  		</p>
+		<p id="val">Valoración máxima:</p>
+		
+		<p class="clasificacion1">
+   		 <input id="radio6" type="radio" name="estrllas" value="5"><!--
+    --><label for="radio6">★</label><!--
+    --><input id="radio7" type="radio" name="estrllas" value="4"><!--
+    --><label for="radio7">★</label><!--
+    --><input id="radio8" type="radio" name="estrllas" value="3"><!--
+    --><label for="radio8">★</label><!--
+    --><input id="radio9" type="radio" name="estrllas" value="2"><!--
+    --><label for="radio9">★</label><!--
+    --><input id="radio10" type="radio" name="estrllas" value="1"><!--
+    --><label for="radio10">★</label>
+  		</p>
+		<button class="btn_viaje" type="submit" >Buscar Viaje</button>
+	</form>
+</section>
+
+
+<section id="busqueda">
+<h1>Resultado Busqueda:</h1>
+
+	<section id="viajes-resul">
+	     <div class="demo-1 effect">
+	        
+	            <p>Esto es una descripción de las maravillosas vacaciones que tuvieron lugar en 
+	            la costa de Hawaii.</p>
+	            <a href="viaje.html"><b>Ver más...</b></a></p>
+	        
+	        
+	        <img class="top" src="images/hawaii.jpg" alt=""/>
+
+	    </div>
+
+	    <div class="content-viajes">
+	       <a href="viaje.html"><h2>Vacaciones en Hawaii</h2></a>
+	       <p>Autor: Pepito Grillo</p>
+	       <p>Fecha: 15/08/2016</p>
+	    </div>
+	</section>
+
+	<section id="viajes-resul">
+	     <div class="demo-1 effect">
+	        
+	            <p>Esto es una descripción de las maravillosas vacaciones que tuvieron lugar en 
+	            la costa de Hawaii.</p>
+	            <a href="viaje.html"><b>Ver más...</b></a></p>
+	        
+	        
+	        <img class="top" src="images/roma.jpg" alt=""/>
+	    </div>
+	    <div class="content-viajes">
+	   <a href="viaje.html"><h2>Vacaciones en Italia</h2></a>
+	   <p>Autor: Pepito Grillo</p>
+	   <p>Fecha: 15/08/2016</p>
+	   <div>
+	</section>
+
+	<section id="viajes-resul">
+	     <div class="demo-1 effect">
+	            
+	            <p>Esto es una descripción de las maravillosas vacaciones que tuvieron lugar en 
+	            la costa de Hawaii.</p>
+	            <a href="viaje.html"><b>Ver más...</b></a></p>
+	        
+	        
+	        <img class="top" src="images/teide.jpg" alt=""/>
+	    </div>
+	    <div class="content-viajes">
+	   <a href="viaje.html"><h2>Vacaciones en Tenerife</h2></a>
+	   <p>Autor: Pepito Grillo</p>
+	   <p>Fecha: 15/08/2016</p>
+	   </div>
+	</section> 
+
+</section>
+
+
+
+<footer>
+
+  <p><i class="icon-copyright"></i>OpenTraveler Group S.A.   2016   Contacto: <a href="mailto:serviciodeinformatica@opentraveler.com">serviciodeinformatica@opentraveler.com</a> Mas información <a href="about.html"><b>Aquí</b></a></p>
+</footer>
+
+</body>
+</html>

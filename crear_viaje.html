@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>CREAR VIAJE-OPEN TRAVELER</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link href='https://fonts.googleapis.com/css?family=Arimo:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<link type="text/css" rel="stylesheet" href="css/house.css" />
+<link type="text/css" rel="stylesheet" href="css/apple.css" />
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+</head>
+
+
+<body>
+
+<header>
+
+
+<nav id="hamburguesa">
+
+<div class="control-menu-ap">
+		<a href="#hamburguesa" class="abrir"><i class="icons8-menu"></i></a>
+		<a href="#" class="cerrar"><i class="icons8-delete"></i></a>
+	</div>
+	<img id="logo"  alt="" src="images/logo1.png">
+<ul class="menu-nav">
+		<li><a href="index.html"><i class="icon-home-circled"></i>INICIO</a> </li>
+		<li><a href="buscar_viajes.html"><i class="icon-search"></i>BUSCAR VIAJES</a></li> 
+		<li><a href="crear_viaje.html"><i class="icon-flight"></i>CREAR VIAJE</a></li>
+		<li><a href="about.html"><i class="icon-adult"></i>PERFIL</a></li>
+		<li><a href="registro.html"><i class="icon-logout-2"></i>LOGOUT</a></li>
+		<li><a href="login.html"><i class="icon-login"></i>LOGIN</a></li>
+		<li><a href="registro.html"><i class="icon-logout"></i>REGISTRO</a></li>
+	</ul>
+</nav>
+
+
+<nav id="ed-escritorio">
+<img id="logo"  alt="" src="images/logo.png" >
+
+	<ul class="menu-principal">
+		<li><a href="index.html"><i class="icon-home-circled"></i>INICIO</a> </li>
+		<li><a href="buscar_viajes.html"><i class="icon-search"></i>BUSCAR VIAJES</a></li> 
+		<li><a href="crear_viaje.html"><i class="icon-flight"></i>CREAR VIAJE</a></li>
+		<li><a href="about.html"><i class="icon-adult"></i>PERFIL</a></li>
+		<li><a href="registro.html"><i class="icon-logout-2"></i>LOGOUT</a></li>
+		<li><a href="login.html"><i class="icon-login"></i>LOGIN</a></li>
+		<li><a href="registro.html"><i class="icon-logout"></i>REGISTRO</a></li>
+	</ul>
+</nav>
+
+</header>
+
+
+<section id="busqueda">
+<h1>Crear Viaje</h1>
+
+	<form action='#'>
+		
+	    <!--Usuario:-->
+		<input type="text" class="titulo" name="titulo" placeholder = "Titulo" maxlength="200" autofocus required title="Introduce un Titulo"> 
+		<!--pattern="^([a-z]+[0-9]{0,2}){5,12}$"-->
+		<!--Contraseña:-->
+		<textarea class="descripcion" placeholder="Descripción" required title="Introduce una Descripción"></textarea>
+	<div class="fechas">
+		<p id="val">Fecha entre:</p>
+		<input type="date" name="fechaini" required>
+		<span> - </span>
+		<input type="date" name="fechafin" required> 
+		</div> 
+		
+		<p id="val">Valoración:</p>
+		
+		<p class="clasificacion">
+   		 <input id="radio1" type="radio" name="estrellas" value="5"><!--
+    --><label for="radio1">★</label><!--
+    --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+    --><label for="radio2">★</label><!--
+    --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+    --><label for="radio3">★</label><!--
+    --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+    --><label for="radio4">★</label><!--
+    --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+    --><label for="radio5">★</label>
+  		</p>
+
+		<p id="val">Añadir Fotos:</p>
+
+			<input class="sub_foto" type="file" name="img" multiple>
+
+		<button class="btn_viaje" type="submit" >Crear Viaje</button>
+
+	</form>
+</section>
+
+<footer>
+
+  <p><i class="icon-copyright"></i>OpenTraveler Group S.A.   2016   Contacto: <a href="mailto:serviciodeinformatica@opentraveler.com">serviciodeinformatica@opentraveler.com</a> Mas información <a href="about.html"><b>Aquí</b></a></p>
+</footer>
+
+</body>
+
+</html>
