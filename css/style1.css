@@ -12,7 +12,15 @@ and (min-width : 321px){
 	}
 
 	/*Logo*/
-	#logo
+	#logo-movil
+	{
+		width: 25%;
+		margin-left: 38%;
+		margin-top: 1%;
+    	margin-right: auto;
+	}
+
+	#logo-esctritorio
 	{
 		width: 25%;
 		margin-left: 38%;
@@ -356,7 +364,7 @@ and (min-width : 321px){
  		visibility: visible !important;
 	}
 
-	#viajes
+	#viajes-1, #viajes-2, #viajes-3, #viajes-4, #viajes-5 
 	{
 		width: 92%;
 		background: #EEEEEE;
@@ -408,7 +416,7 @@ and (min-width : 321px){
 	
 
 
-	#viajes img
+	#viajes-1 img, #viajes-2 img, #viajes-3 img, #viajes-4 img, #viajes-5 img
 	{
 		width: 100%;
 		display: inline-block;
@@ -707,13 +715,21 @@ and (max-width : 320px){
 	}
 
 	/*Logo*/
-	#logo
+	#logo-movil
 	{
 		width: 50%;
 		margin-right: auto;
 		margin-left: 25%;
 		margin-top: 5%;
-    		}
+	}
+
+	#logo-esctritorio
+	{
+		width: 50%;
+		margin-right: auto;
+		margin-left: 25%;
+		margin-top: 5%;
+	}
 	
 	/*Menú de hamburguesa*/
 
@@ -1065,7 +1081,7 @@ and (max-width : 320px){
  		visibility: visible !important;
 	}
 
-	#viajes
+	#viajes-1, #viajes-2, #viajes-3, #viajes-4, #viajes-5 
 	{
 		width: 92%;
 		background: #EEEEEE;
@@ -1116,7 +1132,7 @@ and (max-width : 320px){
 	}
 	
 
-	#viajes img
+	#viajes-1 img, #viajes-2 img, #viajes-3 img, #viajes-4 img, #viajes-5 img
 	{
 		width: 200%;
 		margin-top: 10%;
@@ -1433,13 +1449,21 @@ and (max-device-width : 480px) {
 	}
 
 	/*Logo*/
-	#logo
+	#logo-movil
 	{
 		width: 50%;
 		margin-right: auto;
 		margin-left: 25%;
 		margin-top: 5%;
-    		}
+	}
+
+	#logo-esctritorio
+	{
+		width: 50%;
+		margin-right: auto;
+		margin-left: 25%;
+		margin-top: 5%;
+	}
 	
 	/*Menú de hamburguesa*/
 
@@ -1791,7 +1815,7 @@ and (max-device-width : 480px) {
  		visibility: visible !important;
 	}
 
-	#viajes
+	#viajes-1, #viajes-2, #viajes-3, #viajes-4, #viajes-5 
 	{
 		width: 92%;
 		background: #EEEEEE;
@@ -1842,7 +1866,7 @@ and (max-device-width : 480px) {
 	}
 	
 
-	#viajes img
+	#viajes-1 img, #viajes-2 img, #viajes-3 img, #viajes-4 img, #viajes-5 img
 	{
 		width: 100%;
 		margin-top: 10%;
@@ -2172,7 +2196,15 @@ and (max-device-width : 480px) {
 	}
 
 	/*Logo*/
-	#logo
+	#logo-movil
+	{
+		width: 25%;
+		margin-left: 38%;
+		margin-top: 1%;
+    	margin-right: auto;
+	}
+
+	#logo-esctritorio
 	{
 		width: 25%;
 		margin-left: 38%;
@@ -2516,7 +2548,7 @@ and (max-device-width : 480px) {
  		visibility: visible !important;
 	}
 
-	#viajes
+	#viajes-1, #viajes-2, #viajes-3, #viajes-4, #viajes-5 
 	{
 		width: 92%;
 		background: #EEEEEE;
@@ -2568,7 +2600,7 @@ and (max-device-width : 480px) {
 	}
 	
 
-	#viajes img
+	#viajes-1 img, #viajes-2 img, #viajes-3 img, #viajes-4 img, #viajes-5 img
 	{
 		width: 100%;
 		display: inline-block;
@@ -2886,7 +2918,7 @@ and (min-width : 1224px) {
 
 
 
-	#viajes
+	#viajes-1, #viajes-2, #viajes-3, #viajes-4, #viajes-5 
 	{
 		width: 70%;
     	background: #fafafa;
@@ -3245,7 +3277,15 @@ and (min-width : 1224px) {
 			-o-transition-duration: 3s;
 	}
 
-	#logo
+	#logo-movil
+	{
+		width: 20%;
+		display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+	}
+
+	#logo-esctritorio
 	{
 		width: 20%;
 		display: block;
@@ -3524,7 +3564,7 @@ and (min-width : 1224px) {
 		color: grey;
 	}
 
-	#viajes img
+	#viajes-1 img, #viajes-2 img, #viajes-3 img, #viajes-4 img, #viajes-5 img
 	{
 		width: 40%;
 		margin-top: 1%;
@@ -3633,7 +3673,7 @@ and (min-width : 1824px) {
 
 
 
-	#viajes
+	#viajes-1, #viajes-2, #viajes-3, #viajes-4, #viajes-5 
 	{
 		width: 70%;
     	background: #fafafa;
@@ -3988,7 +4028,15 @@ and (min-width : 1824px) {
 			-o-transition-duration: 3s;
 	}
 
-	#logo
+	#logo-movil
+	{
+		width: 20%;
+		display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+	}
+
+	#logo-esctritorio
 	{
 		width: 20%;
 		display: block;
@@ -4267,7 +4315,7 @@ and (min-width : 1824px) {
 		color: grey;
 	}
 
-	#viajes img
+	#viajes-1 img, #viajes-2 img, #viajes-3 img, #viajes-4 img, #viajes-5 img
 	{
 		width: 40%;
 		margin-top: 1%;
